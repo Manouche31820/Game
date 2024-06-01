@@ -5,7 +5,7 @@ import Image from 'next/image';
 export default function Animation() {
     const [imageSrc, setImageSrc] = useState('/char/start.png');
     const [marginLeft, setMarginLeft] = useState(200);
-    const [marginTop, setMarginTop] = useState(400);
+    const [marginTop, setMarginTop] = useState(600);
     const [windowWidth, setWindowWidth] = useState(0);
     const [windowHeight, setWindowHeight] = useState(0);
     const [Up, setUp] = useState(false);
